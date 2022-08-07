@@ -1,0 +1,154 @@
+
+/*LOGO*/
+
+body{
+    background-color: black;
+}
+
+header{
+    color: white;
+    font-size: 35px;
+}
+
+span{
+    color: red;
+    font-size: 40px;
+}
+
+nav{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+/* SEPARADOR - LA BANDA*/
+.titulos{
+    color: black;
+    background-color: red;
+}
+
+.titulos h2{
+    font-size: 28px;
+    font-variant: small-caps;
+}
+
+/* LA BANDA*/
+
+.indioSolari p{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.skay p{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    font-size: 18px;
+}
+.martinCarrizo p{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+img{
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+/*DISCOGRAFIA*/
+
+.discografia{
+    background-color:black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*PROXIMOS SHOWS*/
+.container{
+    background-color: black;
+}
+
+table{
+    margin: 20px;
+}
+
+table tr th{
+    font-size: 18px;
+}
+
+table tr td{
+    font-size: 16px;
+}
+
+/*CARRUSEL*/
+
+.carousel{
+    margin: 20px;
+}
+
+footer{
+    background-color: red;
+    height: 40px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.redesSociales{
+    background-color: black;
+    text-align: center;
+}
+
+.redesSociales a i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.textoHistoria p{
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.videoHistoria{
+    margin: 10px;
+}
+
+.textoParaFoto p{
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.fotoHistoria{
+    margin: 10px;
+}
